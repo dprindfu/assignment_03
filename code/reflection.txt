@@ -4,3 +4,5 @@ See reflection.md for what makes a good reflection — be specific, use the
 terminology from this assignment (rerun, widget, return value, guard, bytes vs.
 text, decode, session state, initialise once, button-triggered, metric), and make
 it actionable.
+
+In this assignment I learned how session state can be used to track data across reruns of the program. I also learned about 2 common mishaps- 1 variables being wiped away due to them not being saved in a session state, and 2 files not being "guarded" to save them across reruns by combining the file uploader and button steps. I struggled with naming my variables properly- specifically when i named two different variables "package" and the ordering of certain blocks of code- such as calling upon the metrics before updating the session state. Going forward, I will be more mindful of my variable naming conventions and will be more systematic in the architecture of my code. 
